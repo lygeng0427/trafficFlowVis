@@ -1,0 +1,8 @@
+pyyaml
+numpy
+hydra-core
+Pillow
+moviepy
+h5py
+joblib
+omegaconf

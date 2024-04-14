@@ -1,0 +1,3 @@
+objects: [pedestrian, car, truck]
+video_path: /scratch/lg3490/tfv/StreetAware Dataset/chase_1/sensor_1/left_half.mp4
+frames_path: /scratch/lg3490/tfv/frames/
