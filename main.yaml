@@ -1,3 +1,12 @@
-objects: [pedestrian, car, truck]
-video_path: /scratch/lg3490/tfv/StreetAware Dataset/chase_1/sensor_1/left_half.mp4
+# All
+objects: [pedestrian, car, truck, bicycle, scooter]
+video_path: /scratch/lg3490/tfv/StreetAware Dataset/right_half.mp4
+
+# Temporal
 frames_path: /scratch/lg3490/tfv/frames/
+csv_output_path: /scratch/lg3490/tfv/count.csv
+
+# Spatial
+clip_frames_path: /scratch/lg3490/tfv/spatial/frames/
+start_time: (3, 45)
+end_time: (4, 6)

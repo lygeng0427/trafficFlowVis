@@ -1,5 +1,12 @@
 from lang_sam import LangSAM
 import matplotlib.pyplot as plt
+import re
+
+def extract_number(filename):
+    match = re.search(r'\d+', filename)
+    if match:
+        return int(match.group())
+    return 0
 
 def get_masks(image_pil, text_prompt, langsam_path='sam_vit_h_4b8939.pth', visualize=False):
     model = LangSAM()
