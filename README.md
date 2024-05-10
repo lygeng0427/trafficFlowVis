@@ -1,36 +1,41 @@
-# trafficFlowVis
-This repository is used for the final project of NYU Visualization for Machine Learning course.
+# Traffic Flow Analysis using Deep Learning and Visualization
 
-# 5/2 presentation #
--  same section as the final paper
-    -  intro
-    - related work
-    - methodology
-    - evaluation
-    - explainability
-    - future work
-    - interactive demo
-    - pre-recorded video
-    - Q&A
+This repository contains the code and documentation for our project titled "Uncovering Temporal and Spatial Relationships Among Objects in Traffic Flow Street Scenes: A Deep Learning and Visualization Approach". Our project utilizes state-of-the-art machine learning models and data visualization techniques to analyze urban traffic flow dynamics from both temporal and spatial perspectives.
 
-# workflow #
--  each step should preview the video to select the most informative episode
+## Contributors
 
-- classes: bicycle, scooter, truck, car, human.  
-## select chase 2 sensor 4 right as the main video ##
-- Spatial
-    - time-best: 3:45-4:06 
-    - smaller frame step size, finer time period
-    - only capture the number of classes
-    - visualize via time/classes distribution
-    - refer to MoReVis
+- Jiacheng Shen - [shen.patrick.jiacheng@nyu.edu](mailto:shen.patrick.jiacheng@nyu.edu)
+- Liyuan Geng - [lg3490@nyu.edu](mailto:lg3490@nyu.edu)
 
-- Temporal
-    - time-best: 3:45-4:06 
-    - larger frame step size, coarser time period
-    - matching the bounding box by distance in two sequential frame
-    - visualize by the time/ distance with camera. 
+## Project Overview
 
-# TODO-let's say "Maybe" # 
-- Explainability
-    - training YOLO and explain by CNN, get some insights on model's decision.
+The rapid evolution of urban transportation demands innovative approaches to traffic management and planning. This project leverages advanced deep learning techniques and the d3.js library to visualize traffic flow interactions, providing insights that help in urban planning and management.
+
+### Key Features
+
+- **Deep Learning Model**: Using LangSAM for object detection and tracking within complex urban street scenes.
+- **Data Visualization**: Employing the d3.js library to represent traffic flow interactions dynamically and interactively.
+- **Object Tracking**: Implementation of a simple object tracking algorithm to enrich our analysis with temporal data insights.
+
+## Repository Structure
+
+- `src/`: Contains all the source code developed for the project.
+- `data/`: Where the processed data files are stored.
+- `notebooks/`: Jupyter notebooks demonstrating the analysis and visualization process.
+- `docs/`: Additional documentation relating to the project.
+
+## Visualization Demos
+
+Interactive visualizations are available through ObservableHQ:
+- Temporal Data Visualization: [View Notebook](https://observablehq.com/d/25dde18c8a056bd5)
+- Spatial Data Visualization: [View Notebook](https://observablehq.com/d/d2f630741298b9c3)
+
+## Setup and Installation
+
+Instructions on how to set up the project for development and testing purposes.
+
+```bash
+git clone https://github.com/lygeng0427/trafficFlowVis.git
+cd trafficFlowVis
+# install dependencies
+pip install -r requirements.txt

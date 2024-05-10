@@ -165,8 +165,10 @@ frames/
 temporal/
 spatial/
 explanability/
+ultralyticsplus/
 
 *.ext3
 *.out
 *.csv
 *.png
+*.json

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#SBATCH --job-name=gpu_count_num_objects
+#SBATCH --job-name=matching_objects
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=2
-#SBATCH --mem=30GB
+#SBATCH --mem=60GB
 #SBATCH --time=24:00:00
 #SBATCH --gres=gpu
 #SBATCH --partition=a100_1,a100_2,v100,rtx8000

@@ -10,3 +10,4 @@ csv_output_path: /scratch/lg3490/tfv/count.csv
 clip_frames_path: /scratch/lg3490/tfv/spatial_frames
 start_time: 225
 end_time: 246
+bbox_csv_path: /scratch/lg3490/tfv/spatial
