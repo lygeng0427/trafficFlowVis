@@ -33,3 +33,24 @@ git clone https://github.com/lygeng0427/trafficFlowVis.git
 cd trafficFlowVis
 # install dependencies
 pip install -r requirements.txt
+```
+
+## Repository Structure
+
+This repository contains several scripts, configuration files, and other elements crucial for the project's functionality. Below is a detailed explanation of the repository's structure:
+
+### Scripts
+
+- `main.py`: The primary script that executes the main functionalities of the project.
+- `convert_csv_file.py`: A utility script used to convert data formats, specifically handling CSV file transformations. Recent updates have made GPU count functions operational.
+- `read_spatial.py`: Script to read and process spatial data inputs.
+- `utils.py`: Contains utility functions that support various operations throughout the project.
+
+### Configuration Files
+
+- `bbox_spatial.yaml`: Configuration settings for bounding box calculations related to spatial data.
+- `main.yaml`: Main configuration file that contains essential settings for running the `main.py` script.
+
+### Requirements
+
+- `requirements.txt`: Lists all Python dependencies required to run the scripts in this repository. Ensure you install these dependencies to avoid runtime issues.
