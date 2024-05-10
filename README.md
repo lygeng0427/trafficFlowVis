@@ -17,12 +17,6 @@ The rapid evolution of urban transportation demands innovative approaches to tra
 - **Data Visualization**: Employing the d3.js library to represent traffic flow interactions dynamically and interactively.
 - **Object Tracking**: Implementation of a simple object tracking algorithm to enrich our analysis with temporal data insights.
 
-## Repository Structure
-
-- `src/`: Contains all the source code developed for the project.
-- `data/`: Where the processed data files are stored.
-- `notebooks/`: Jupyter notebooks demonstrating the analysis and visualization process.
-- `docs/`: Additional documentation relating to the project.
 
 ## Visualization Demos
 
